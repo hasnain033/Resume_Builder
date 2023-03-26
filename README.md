@@ -1,4 +1,4 @@
-# Project: Memories Application
+# Project: Resume Builder Application
 
 ### Description
 
