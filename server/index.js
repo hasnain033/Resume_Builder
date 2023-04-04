@@ -22,7 +22,7 @@ app.use("/getTemplates", templatesRoute);
 const CONNECT_URL =
   "mongodb+srv://HasnainAli:0310React@cluster0.dpng040.mongodb.net/?retryWrites=true&w=majority";
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4567;
 mongoose.set("strictQuery", true);
 mongoose
   .connect(CONNECT_URL, { useNewUrlParser: true, dbName: "CV-maker" })
